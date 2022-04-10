@@ -8,6 +8,7 @@ public interface QuoteScheduler {
   default void quoteSchedule() {
     List<QuoteDto> quotes = getQuotes(getTickers(), date);
 
+
   }
 
   List<String> getTickers();
